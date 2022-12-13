@@ -1,4 +1,4 @@
 library(plumber)
-# 'plumber.R' is the location of the file shown above
-pr("app.R") %>%
+# 'app.R' is the location of the file shown above
+pr("api/app.R") %>%
   pr_run(port=8000)
